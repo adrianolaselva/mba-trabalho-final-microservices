@@ -16,7 +16,7 @@ mvn sprint-boot:run
 ### Rodar container
 
 ```sh
-docker run -p 8000:8000 -t adrianolaselva/mba-trabalho-final-microservices
+docker run -p 8000:8000 -t adrianolaselva/mba-trabalho-final-microservices:1.0.0
 ```
 
 ## Api
