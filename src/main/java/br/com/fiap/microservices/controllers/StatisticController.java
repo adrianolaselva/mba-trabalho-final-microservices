@@ -1,7 +1,6 @@
 package br.com.fiap.microservices.controllers;
 
 import br.com.fiap.microservices.dto.StatisticDTO;
-import com.wordnik.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("statistics")
-@Api(value = "statistic", description = "Statistic Service REST API")
 public class StatisticController {
 
 
