@@ -28,7 +28,7 @@ curl -X POST \
   http://localhost:8080/transactions \
   -H 'content-type: application/json' \
   -d '{
-    "timestamp": 1478221904000,
+    "timestamp": 1556595259825,
     "amount": 25000.15
 }'
 ```
